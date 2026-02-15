@@ -1,4 +1,5 @@
 import { Container } from "@/components/landing/Container";
+import Image from "next/image";
 
 const links = [
   { href: "#features", label: "פיצ’רים" },
@@ -14,9 +15,17 @@ export function Navbar() {
         <nav aria-label="ניווט ראשי" className="flex h-16 items-center justify-between">
           <a
             href="#"
-            className="font-semibold tracking-tight text-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="flex items-center gap-2 font-semibold tracking-tight text-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           >
-            Syncore
+            <Image
+              src="/Syncore%20Logo_192.webp"
+              alt="Syncore"
+              width={140}
+              height={32}
+              priority
+              className="h-7 w-auto"
+            />
+            <span className="sr-only">Syncore</span>
           </a>
 
           <div className="hidden items-center gap-6 md:flex">

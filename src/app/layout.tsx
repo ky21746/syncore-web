@@ -15,7 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Syncore | מערכות ארגוניות חכמות שעובדות בשבילך",
   description:
-    "פלטפורמה מבוססת AI לניהול פרויקטים, משימות, לקוחות ותהליכים עסקיים. אוטומטציה חכמה שחוסכת זמן ומגדילה יעילות.",
+    "פלטפורמה מבוססת AI לניהול פרויקטים, משימות, לקוחות ותהליכים עסקיים. אוטומציה חכמה שחוסכת זמן ומגדילה יעילות.",
+  icons: {
+    icon: "/Favicon.png",
+  },
 };
 
 export default function RootLayout({
