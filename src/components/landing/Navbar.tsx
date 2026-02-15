@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const links = [
   { href: "#features", label: "פיצ’רים" },
-  { href: "#pricing", label: "תמחור" },
   { href: "#faq", label: "שאלות נפוצות" },
   { href: "#contact", label: "צור קשר" },
 ] as const;
@@ -45,7 +44,7 @@ export function Navbar() {
               href="#contact"
               className="inline-flex h-10 items-center justify-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground shadow-sm hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             >
-              התחל עכשיו בחינם
+              הזמן הדגמה אישית
             </a>
           </div>
         </nav>

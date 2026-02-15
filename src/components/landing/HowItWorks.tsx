@@ -3,7 +3,7 @@ import { MotionSection } from "@/components/landing/MotionSection";
 
 const steps = [
   {
-    title: "הירשם בחינם תוך דקה",
+    title: "הירשם תוך דקה",
     description: "יצירת סביבת עבודה מאובטחת והגדרות בסיסיות בזריזות.",
   },
   {

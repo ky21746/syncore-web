@@ -48,9 +48,7 @@ export function Contact() {
             <p className="mt-3 max-w-xl text-sm leading-6 text-muted-foreground sm:text-base">
               הצטרף לארגונים שכבר חוסכים זמן ומשפרים תהליכים עם Syncore.
             </p>
-            <p className="mt-6 text-sm text-muted-foreground">
-              ללא צורך בכרטיס אשראי • ביטול בכל עת • תמיכה מלאה בעברית
-            </p>
+            <p className="mt-6 text-sm text-muted-foreground">תמיכה מלאה בעברית</p>
           </div>
 
           <form

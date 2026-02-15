@@ -2,7 +2,6 @@ import { Container } from "@/components/landing/Container";
 
 const productLinks = [
   { label: "פיצ'רים", href: "#features" },
-  { label: "תמחור", href: "#pricing" },
   { label: "הדגמה", href: "#contact" },
   { label: "עדכונים", href: "#" },
 ] as const;

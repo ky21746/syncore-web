@@ -14,20 +14,12 @@ export function FinalCTA() {
               <p className="mt-3 max-w-xl text-sm leading-6 text-muted-foreground sm:text-base">
                 הצטרף לארגונים שכבר חוסכים זמן ומשפרים תהליכים עם Syncore
               </p>
-              <p className="mt-6 text-sm text-muted-foreground">
-                ללא צורך בכרטיס אשראי • ביטול בכל עת • תמיכה מלאה בעברית
-              </p>
+              <p className="mt-6 text-sm text-muted-foreground">תמיכה מלאה בעברית</p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center lg:justify-end">
               <a
                 href="#contact"
                 className="inline-flex h-11 items-center justify-center rounded-full bg-primary px-6 text-sm font-semibold text-primary-foreground shadow-sm hover:opacity-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-              >
-                התחל עכשיו בחינם
-              </a>
-              <a
-                href="#contact"
-                className="inline-flex h-11 items-center justify-center rounded-full border border-border bg-background px-6 text-sm font-semibold text-dark hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
               >
                 הזמן הדגמה אישית
               </a>
